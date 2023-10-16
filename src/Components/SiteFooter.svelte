@@ -4,9 +4,10 @@
     #site-footer {
         background-color: #101010;
         clip-path: polygon(0 50px, 0 100%, 100% 100%, 100% 0);
-        height: 300px;
+        height: 150px;
         width: 100%;
         position: relative;
+        margin-top: auto;
     }
     h5 {
         width: 100%;

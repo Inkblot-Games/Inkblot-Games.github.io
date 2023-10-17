@@ -5,8 +5,13 @@
 <style>
     img {
         height: 100%;
+    }
+    div {
+        height: 100%;
         padding: 20px;
     }
 </style>
 
-<img {src} alt="Company logo">
+<div>
+    <img {src} alt="Company logo">
+</div>

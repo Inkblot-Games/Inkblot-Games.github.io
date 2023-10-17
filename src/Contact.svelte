@@ -6,9 +6,18 @@
     export let name;
     import SiteNav from "./Components/SiteNav.svelte"
     import PageHeader from "./Components/PageHeader.svelte"
+    import SiteFooter from "./Components/SiteFooter.svelte";
+    import DescriptionBlock from "./Components/DescriptionBlock.svelte";
+    let contactInfo = `
+    <p>Please send any inquiries to admin@inkblotgames.ca<p>
+    `;
   </script>
   
   <main>
-    <SiteNav name={name}/>
-    <PageHeader name={name}/>
+    <div class='flex-wrapper'>
+      <SiteNav name={name}/>
+      <PageHeader name={name}/>
+      <DescriptionBlock content={contactInfo} direction="right"/>
+      <SiteFooter/>
+    </div>
   </main>
